@@ -1,0 +1,45 @@
+#container {
+    border: 5px double black;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body {
+    text-align: center;
+}
+
+#anchor {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+a {
+    /* padding-top: 1000px; */
+    text-decoration: none;
+    /* margin: auto; */
+    margin-right: 100px;
+    color: black;
+}
+
+.img {
+    height: 165px;
+}
+
+.anc:hover {
+      color: blue;
+}
+
+.anc:active {
+    color: green;
+}
+
+.anc:focus {
+    color: red;
+}
+
+label {
+    font-size: xx-large;
+}
